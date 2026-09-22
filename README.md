@@ -70,7 +70,7 @@ Program terminated.
 
 "Create a C file named "test_extract.c" that runs a program of the test cases used in the sample run given in the initial prompt. Make sure it includes all of the listed sample inputs, but also include some additional edge test cases to truly test the scalability and accuracy of the program."
 
-### Prompt 3
+### Prompt 3 - Explain test file compiling error
 
 "What does this error mean? Do not give the fix, just explain the error."
 /usr/bin/ld: /tmp/cciQu6n4.o: in function main': test_extract.c:(.text+0x0): multiple definition of main'; /tmp/ccqLRaQF.o:extractIPV4.c:(.text+0x529): first defined here collect2: error: ld returned 1 exit status -bash: ./test: No such file or directory
