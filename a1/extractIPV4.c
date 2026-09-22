@@ -215,7 +215,7 @@ int main(void)
         /* Remove the newline added by fgets. */
         input[strcspn(input, "\n")] = '\0';
 
-        if (strcmp(input, "END") == 0 || strcmp(input, "end") == 0 || strcmp(input, "End") == 0)
+        if (strcmp(input, "END") == 0)
         {
             printf("Program terminated.\n");
             break;
