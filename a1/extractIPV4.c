@@ -200,7 +200,7 @@ int extractIPv4(const char *str, unsigned long *outAddress, int *outPort)
     return 0;
 }
 
-
+#ifndef TESTING
 int main(void)
 {
     char input[MAX_INPUT];
@@ -254,3 +254,4 @@ int main(void)
 
     return 0;
 }
+#endif
